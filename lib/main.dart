@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
                   await player2.setAsset('assets/audio/horse.mp3');
                   // final url =
                   //     'https://www.applesaucekids.com/sound%20effects/horse_whinney_2.mp3';
-                  // await player.setUrl(url);
+                  // await player2.setUrl(url);
                   player2.play();
                 },
                 child: Text('Horse'),
