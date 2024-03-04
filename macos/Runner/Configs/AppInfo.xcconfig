@@ -8,7 +8,7 @@
 PRODUCT_NAME = audio_clips_flutter_demo
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = dev.suragch.audioClipsFlutterDemo
+PRODUCT_BUNDLE_IDENTIFIER = com.example.audioClipsFlutterDemo
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2021 dev.suragch. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2024 com.example. All rights reserved.

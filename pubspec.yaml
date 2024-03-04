@@ -1,6 +1,6 @@
 name: audio_clips_flutter_demo
 description: A new Flutter project.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -9,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  just_audio: ^0.9.13
+  flutter_lints: ^3.0.1
+  just_audio: ^0.9.36
 
 dev_dependencies:
   flutter_test:
