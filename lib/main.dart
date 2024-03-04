@@ -38,10 +38,10 @@ class _AudioAppState extends State<AudioApp> {
             children: [
               ElevatedButton(
                 onPressed: () async {
-                  const url =
-                      'https://www.applesaucekids.com/sound%20effects/moo.mp3';
-                  await player.setUrl(url);
-                  //await player.setAsset('assets/audio/cow.mp3');
+                  // const url =
+                  //     'https://www.applesaucekids.com/sound%20effects/moo.mp3';
+                  // await player.setUrl(url);
+                  await player.setAsset('assets/audio/cow.mp3');
                   player.play();
                 },
                 child: const Text('Cow'),
@@ -49,10 +49,10 @@ class _AudioAppState extends State<AudioApp> {
               const SizedBox(width: 10),
               ElevatedButton(
                 onPressed: () async {
-                  const url =
-                      'https://www.applesaucekids.com/sound%20effects/horse_whinney_2.mp3';
-                  await player2.setUrl(url);
-                  // await player2.setAsset('assets/audio/horse.mp3');
+                  // const url =
+                  //     'https://www.applesaucekids.com/sound%20effects/horse_whinney_2.mp3';
+                  // await player2.setUrl(url);
+                  await player2.setAsset('assets/audio/horse.mp3');
                   player2.play();
                 },
                 child: const Text('Horse'),
